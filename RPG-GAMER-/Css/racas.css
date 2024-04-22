@@ -1,0 +1,63 @@
+/* Estilos para a lista de raças */
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ccc; /* Cor de fundo cinza do layout */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.container h1 {
+    text-align: center;
+    color: #333; /* Cor do título */
+}
+
+.container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container ul li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff; /* Cor de fundo branca para os itens da lista */
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+.container ul li:hover {
+    background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
+}
+
+.container ul li a {
+    color: #333; /* Cor do texto dos links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container ul li a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+
+/*href*/
+
+.container a {
+    display: block;
+    text-align: center;
+    color: #333; /* Cor do texto */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #fff; /* Cor de fundo branca */
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+.container a:hover {
+    background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
